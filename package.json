@@ -1,0 +1,24 @@
+{
+  "name": "gulpfile",
+  "version": "1.0.0",
+  "description": "我的第二个gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "cls",
+    "filelist": "dir"
+  },
+  "author": "Hoshea",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1"
+  }
+}

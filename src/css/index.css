@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body {
+  font-size: 1.2rem;
+  font-family: '微软雅黑'; }
+  body .box {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 10px;
+    color: #333;
+    margin: 100px; }
+  body .box:hover {
+    background: pink; }
+  body .text {
+    font-size: .8rem; }
+  body .main, body #timer {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center; }

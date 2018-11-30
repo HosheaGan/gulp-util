@@ -1,0 +1,30 @@
+$color:#111;
+
+@mixin common($param) {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 10px;
+    color: $param;
+}
+
+body{
+    font-size: 1.2rem;
+    font-family: '微软雅黑';
+    .box{
+        @include common(#333);
+        margin: 100px;
+    }
+    .box:hover{
+        background: pink;
+    }
+    .text{
+        font-size: .8rem;
+    }
+    .main,#timer{
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
